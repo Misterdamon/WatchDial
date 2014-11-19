@@ -7,6 +7,8 @@ This is a sample application used for exploring Apple's new WatchKit API. It tak
 
 Because I (clearly) don't yet have an Apple Watch this hasn't been tested on an actual device to ensure the phone, text, and email functionality work.
 
+The most interesting files in this project are the `WatchFun WatchKit Extension/InterfaceController.swift` and `WatchFun WatchKit Extension/DetailController.swift`.
+
 Overall, the WatchKit API is a fun little framework that I hope continues to grow.
 
 ![Person list](https://raw.githubusercontent.com/syoutsey/WatchDial/master/images/person_list.png)
