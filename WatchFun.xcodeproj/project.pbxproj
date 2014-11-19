@@ -13,6 +13,15 @@
 		22FFDFB21A1C639B000AFEC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FFDFB11A1C639B000AFEC6 /* Images.xcassets */; };
 		22FFDFB51A1C639B000AFEC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22FFDFB31A1C639B000AFEC6 /* LaunchScreen.xib */; };
 		22FFDFC11A1C639B000AFEC6 /* WatchFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFDFC01A1C639B000AFEC6 /* WatchFunTests.swift */; };
+		22FFDFD11A1C63B4000AFEC6 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FFDFD01A1C63B4000AFEC6 /* WatchKit.framework */; };
+		22FFDFD61A1C63B4000AFEC6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFDFD51A1C63B4000AFEC6 /* InterfaceController.swift */; };
+		22FFDFD81A1C63B4000AFEC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FFDFD71A1C63B4000AFEC6 /* Images.xcassets */; };
+		22FFDFDC1A1C63B4000AFEC6 /* WatchFun Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 22FFDFDB1A1C63B4000AFEC6 /* WatchFun Watch App.app */; };
+		22FFDFE31A1C63B4000AFEC6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FFDFE21A1C63B4000AFEC6 /* Interface.storyboard */; };
+		22FFDFE51A1C63B4000AFEC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FFDFE41A1C63B4000AFEC6 /* Images.xcassets */; };
+		22FFDFE81A1C63B4000AFEC6 /* WatchFun WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 22FFDFCE1A1C63B4000AFEC6 /* WatchFun WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22FFDFF31A1C64A4000AFEC6 /* MyRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFDFF21A1C64A4000AFEC6 /* MyRowController.swift */; };
+		22FFDFF71A1D1EBB000AFEC6 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFDFF61A1D1EBB000AFEC6 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +32,35 @@
 			remoteGlobalIDString = 22FFDFA41A1C639B000AFEC6;
 			remoteInfo = WatchFun;
 		};
+		22FFDFDD1A1C63B4000AFEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FFDF9D1A1C639B000AFEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FFDFDA1A1C63B4000AFEC6;
+			remoteInfo = "WatchFun Watch App";
+		};
+		22FFDFE61A1C63B4000AFEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FFDF9D1A1C639B000AFEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FFDFCD1A1C63B4000AFEC6;
+			remoteInfo = "WatchFun WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22FFDFEF1A1C63B4000AFEC6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				22FFDFE81A1C63B4000AFEC6 /* WatchFun WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		22FFDFA51A1C639B000AFEC6 /* WatchFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +73,17 @@
 		22FFDFBA1A1C639B000AFEC6 /* WatchFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FFDFBF1A1C639B000AFEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22FFDFC01A1C639B000AFEC6 /* WatchFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFunTests.swift; sourceTree = "<group>"; };
+		22FFDFCE1A1C63B4000AFEC6 /* WatchFun WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchFun WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FFDFD01A1C63B4000AFEC6 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		22FFDFD41A1C63B4000AFEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FFDFD51A1C63B4000AFEC6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		22FFDFD71A1C63B4000AFEC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22FFDFDB1A1C63B4000AFEC6 /* WatchFun Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchFun Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FFDFE11A1C63B4000AFEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FFDFE21A1C63B4000AFEC6 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		22FFDFE41A1C63B4000AFEC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22FFDFF21A1C64A4000AFEC6 /* MyRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRowController.swift; sourceTree = "<group>"; };
+		22FFDFF61A1D1EBB000AFEC6 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +101,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22FFDFCB1A1C63B4000AFEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FFDFD11A1C63B4000AFEC6 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +117,9 @@
 			children = (
 				22FFDFA71A1C639B000AFEC6 /* WatchFun */,
 				22FFDFBD1A1C639B000AFEC6 /* WatchFunTests */,
+				22FFDFD21A1C63B4000AFEC6 /* WatchFun WatchKit Extension */,
+				22FFDFDF1A1C63B4000AFEC6 /* WatchFun Watch App */,
+				22FFDFCF1A1C63B4000AFEC6 /* Frameworks */,
 				22FFDFA61A1C639B000AFEC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +129,8 @@
 			children = (
 				22FFDFA51A1C639B000AFEC6 /* WatchFun.app */,
 				22FFDFBA1A1C639B000AFEC6 /* WatchFunTests.xctest */,
+				22FFDFCE1A1C63B4000AFEC6 /* WatchFun WatchKit Extension.appex */,
+				22FFDFDB1A1C63B4000AFEC6 /* WatchFun Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +173,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		22FFDFCF1A1C63B4000AFEC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22FFDFD01A1C63B4000AFEC6 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22FFDFD21A1C63B4000AFEC6 /* WatchFun WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				22FFDFD51A1C63B4000AFEC6 /* InterfaceController.swift */,
+				22FFDFF61A1D1EBB000AFEC6 /* DetailController.swift */,
+				22FFDFF21A1C64A4000AFEC6 /* MyRowController.swift */,
+				22FFDFD71A1C63B4000AFEC6 /* Images.xcassets */,
+				22FFDFD31A1C63B4000AFEC6 /* Supporting Files */,
+			);
+			path = "WatchFun WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		22FFDFD31A1C63B4000AFEC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FFDFD41A1C63B4000AFEC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22FFDFDF1A1C63B4000AFEC6 /* WatchFun Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				22FFDFE21A1C63B4000AFEC6 /* Interface.storyboard */,
+				22FFDFE41A1C63B4000AFEC6 /* Images.xcassets */,
+				22FFDFE01A1C63B4000AFEC6 /* Supporting Files */,
+			);
+			path = "WatchFun Watch App";
+			sourceTree = "<group>";
+		};
+		22FFDFE01A1C63B4000AFEC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FFDFE11A1C63B4000AFEC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +229,12 @@
 				22FFDFA11A1C639B000AFEC6 /* Sources */,
 				22FFDFA21A1C639B000AFEC6 /* Frameworks */,
 				22FFDFA31A1C639B000AFEC6 /* Resources */,
+				22FFDFEF1A1C63B4000AFEC6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				22FFDFE71A1C63B4000AFEC6 /* PBXTargetDependency */,
 			);
 			name = WatchFun;
 			productName = WatchFun;
@@ -150,6 +259,39 @@
 			productReference = 22FFDFBA1A1C639B000AFEC6 /* WatchFunTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		22FFDFCD1A1C63B4000AFEC6 /* WatchFun WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FFDFEC1A1C63B4000AFEC6 /* Build configuration list for PBXNativeTarget "WatchFun WatchKit Extension" */;
+			buildPhases = (
+				22FFDFCA1A1C63B4000AFEC6 /* Sources */,
+				22FFDFCB1A1C63B4000AFEC6 /* Frameworks */,
+				22FFDFCC1A1C63B4000AFEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FFDFDE1A1C63B4000AFEC6 /* PBXTargetDependency */,
+			);
+			name = "WatchFun WatchKit Extension";
+			productName = "WatchFun WatchKit Extension";
+			productReference = 22FFDFCE1A1C63B4000AFEC6 /* WatchFun WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		22FFDFDA1A1C63B4000AFEC6 /* WatchFun Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FFDFE91A1C63B4000AFEC6 /* Build configuration list for PBXNativeTarget "WatchFun Watch App" */;
+			buildPhases = (
+				22FFDFD91A1C63B4000AFEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchFun Watch App";
+			productName = "WatchFun Watch App";
+			productReference = 22FFDFDB1A1C63B4000AFEC6 /* WatchFun Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +307,12 @@
 					22FFDFB91A1C639B000AFEC6 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 22FFDFA41A1C639B000AFEC6;
+					};
+					22FFDFCD1A1C63B4000AFEC6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					22FFDFDA1A1C63B4000AFEC6 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +331,8 @@
 			targets = (
 				22FFDFA41A1C639B000AFEC6 /* WatchFun */,
 				22FFDFB91A1C639B000AFEC6 /* WatchFunTests */,
+				22FFDFCD1A1C63B4000AFEC6 /* WatchFun WatchKit Extension */,
+				22FFDFDA1A1C63B4000AFEC6 /* WatchFun Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +352,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FFDFCC1A1C63B4000AFEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FFDFD81A1C63B4000AFEC6 /* Images.xcassets in Resources */,
+				22FFDFDC1A1C63B4000AFEC6 /* WatchFun Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FFDFD91A1C63B4000AFEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FFDFE31A1C63B4000AFEC6 /* Interface.storyboard in Resources */,
+				22FFDFE51A1C63B4000AFEC6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +393,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22FFDFCA1A1C63B4000AFEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FFDFF71A1D1EBB000AFEC6 /* DetailController.swift in Sources */,
+				22FFDFD61A1C63B4000AFEC6 /* InterfaceController.swift in Sources */,
+				22FFDFF31A1C64A4000AFEC6 /* MyRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +410,16 @@
 			isa = PBXTargetDependency;
 			target = 22FFDFA41A1C639B000AFEC6 /* WatchFun */;
 			targetProxy = 22FFDFBB1A1C639B000AFEC6 /* PBXContainerItemProxy */;
+		};
+		22FFDFDE1A1C63B4000AFEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FFDFDA1A1C63B4000AFEC6 /* WatchFun Watch App */;
+			targetProxy = 22FFDFDD1A1C63B4000AFEC6 /* PBXContainerItemProxy */;
+		};
+		22FFDFE71A1C63B4000AFEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FFDFCD1A1C63B4000AFEC6 /* WatchFun WatchKit Extension */;
+			targetProxy = 22FFDFE61A1C63B4000AFEC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +576,62 @@
 			};
 			name = Release;
 		};
+		22FFDFEA1A1C63B4000AFEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchFun_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchFun Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		22FFDFEB1A1C63B4000AFEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = WatchFun_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchFun Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		22FFDFED1A1C63B4000AFEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchFun WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		22FFDFEE1A1C63B4000AFEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchFun WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +657,22 @@
 			buildConfigurations = (
 				22FFDFC81A1C639B000AFEC6 /* Debug */,
 				22FFDFC91A1C639B000AFEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FFDFE91A1C63B4000AFEC6 /* Build configuration list for PBXNativeTarget "WatchFun Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FFDFEA1A1C63B4000AFEC6 /* Debug */,
+				22FFDFEB1A1C63B4000AFEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FFDFEC1A1C63B4000AFEC6 /* Build configuration list for PBXNativeTarget "WatchFun WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FFDFED1A1C63B4000AFEC6 /* Debug */,
+				22FFDFEE1A1C63B4000AFEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

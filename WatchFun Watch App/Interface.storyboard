@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchFun_Watch_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" layout="vertical" id="SCy-Me-WsW">
+                            <items>
+                                <tableRow identifier="MyRowController" id="pEH-AH-mXp" customClass="MyRowController" customModule="WatchFun_WatchKit_Extension">
+                                    <group key="rootItem" alignment="center" id="B5v-MD-TIX">
+                                        <items>
+                                            <imageView width="50" height="50" alignment="left" verticalAlignment="center" contentMode="scaleAspectFill" id="d3s-3V-Mgi"/>
+                                            <label width="68" alignment="left" verticalAlignment="center" text="Label" id="ugR-Gz-kc5"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="mainImage" destination="d3s-3V-Mgi" id="VUX-Bh-uau"/>
+                                        <outlet property="mainLabel" destination="ugR-Gz-kc5" id="TTm-Fq-Us6"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="SCy-Me-WsW" id="hfO-FA-Xmr"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="538" y="435"/>
+        </scene>
+        <!--DetailController-->
+        <scene sceneID="2tA-Lr-IcQ">
+            <objects>
+                <controller identifier="DetailController" id="41d-Zb-fCH" customClass="DetailController" customModule="WatchFun_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="Label" id="WJ8-eu-omy"/>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Call" id="ltO-oX-aoT">
+                            <connections>
+                                <action selector="callButtonPressed" destination="41d-Zb-fCH" id="LHs-BV-ofN"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Text" id="sCU-GS-w3i">
+                            <connections>
+                                <action selector="textButtonPressed" destination="41d-Zb-fCH" id="LMu-GO-HHK"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Email" id="UMA-Hk-hKN">
+                            <connections>
+                                <action selector="emailButtonPressed" destination="41d-Zb-fCH" id="F1U-u0-rmB"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="callButton" destination="ltO-oX-aoT" id="t8I-ef-kcH"/>
+                        <outlet property="emailButton" destination="UMA-Hk-hKN" id="QNn-Rz-P2m"/>
+                        <outlet property="nameLabel" destination="WJ8-eu-omy" id="GWR-Lo-gOg"/>
+                        <outlet property="textButton" destination="sCU-GS-w3i" id="qny-cM-dhU"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="709" y="435"/>
+        </scene>
+    </scenes>
+</document>
